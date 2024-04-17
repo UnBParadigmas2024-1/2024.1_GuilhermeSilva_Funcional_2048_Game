@@ -1,14 +1,14 @@
-name:                2048Game
+name:                h2048
 version:             0.1.0.0
-github:              "githubuser/2048Game"
-license:             BSD-3-Clause
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2024 Author name here"
+github:              "UnBParadigmas2024-1/2024.1_GuilhermeSilva_Funcional_2048_Game"
+license:             BSD3
+author:              "Guilherme Daniel Fernandes da Silva"
+maintainer:          "guilhermedfs11@gmail.com"
+copyright:           "MIT"
 
 extra-source-files:
 - README.md
-- CHANGELOG.md
+- ChangeLog.md
 
 # Metadata used when publishing your package
 # synopsis:            Short description of your package
@@ -17,38 +17,36 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/githubuser/2048Game#readme>
 
 dependencies:
 - base >= 4.7 && < 5
-
-ghc-options:
-- -Wall
-- -Wcompat
-- -Widentities
-- -Wincomplete-record-updates
-- -Wincomplete-uni-patterns
-- -Wmissing-export-lists
-- -Wmissing-home-modules
-- -Wpartial-fields
-- -Wredundant-constraints
+- gloss
+- reactive-banana
+- random
+- lens
 
 library:
   source-dirs: src
+  exposed-modules:
+  - GUI
+  - Types
+  - Logic
+  - Game
+  - UIConfig
 
 executables:
-  2048Game-exe:
+  2048-game:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         src
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - 2048Game
+    - h2048
 
 tests:
-  2048Game-test:
+  2048-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -56,4 +54,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - 2048Game
+    - h2048

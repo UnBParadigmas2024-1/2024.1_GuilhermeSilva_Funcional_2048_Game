@@ -3,11 +3,17 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: reactive-banana-1.3.2.0@sha256:92d864e3fd4f0042426c4896b08127313ce466982393167811c0ffa664f2933f,5972
+    pantry-tree:
+      sha256: 166f01bf7811b5f2c1d5c7f8a86d5fe4ba570b2b36243879cb2bf188d900d402
+      size: 3181
+  original:
+    hackage: reactive-banana-1.3.2.0
 snapshots:
 - completed:
     sha256: 629fdd46125079fa6d355106005b2ab88bd39332169dd416fda06d5c0aaa63e2
     size: 713332
     url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/17.yaml
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/17.yaml
+  original: lts-22.17
