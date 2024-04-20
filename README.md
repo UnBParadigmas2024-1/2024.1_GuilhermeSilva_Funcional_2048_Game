@@ -49,7 +49,9 @@ Para alcançar o bloco de valor 2048, os jogadores geralmente seguem algumas est
 Implementar o jogo de quebra-cabeça 2048 utilizando Haskell e consequentemente o paradígma funcional.
 
 ## Screenshots
+<img src="https://github.com/UnBParadigmas2024-1/2024.1_GuilhermeSilva_Funcional_2048_Game/blob/main/assets/captura0jogadas.png?raw=true">
 
+<img src="https://github.com/UnBParadigmas2024-1/2024.1_GuilhermeSilva_Funcional_2048_Game/blob/main/assets/capturavariasjogadas.png?raw=true">
 
 ## Instalação 
 **Linguagens**: Haskell<br>
