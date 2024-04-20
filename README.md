@@ -83,14 +83,7 @@ stack exec 2048-game
 ```
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
-Procure: 
-(i) Introduzir o projeto;
-(ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
-(iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
-(iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
-OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8RZBAdBbH7s?si=BaL41dRWK1B2NeeP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Participações
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
@@ -99,7 +92,6 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Guilherme Daniel Fernandes da Silva  |  - Implementação de todo o projeto  | Excelente |
 
 ## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
 (i) Lições Aprendidas;
 - **Dificuldade no uso de variáveis imutáveis:** Apesar da vantagem de tornarem o código mais previsível, as variáveis imutáveis muitas vezes tornam o processo de desenvolvimento desafiador pela necessidade de pensar de forma mais funcional na concepção da solução.
 
@@ -128,8 +120,5 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 - Adicionar uma condição de derrota (ainda não funciona)
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
-
 - Utilizei como base para a interface a seguinte referência: [2048 Haskell](https://github.com/8Gitbrix/2048Haskell)
 - Também utilizei a seguinte referência como base para a lógica do jogo: [2048](https://github.com/gregorulm/h2048)
